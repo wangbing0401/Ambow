@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/error
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/error/error.jsp
+END
+error-500.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/error/error-500.jsp
+END
+error-404.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/error/error-404.jsp
+END

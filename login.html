@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginForm">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link href="./resource/css/login.css" rel="stylesheet">
+    <script src="./resource/js/lib/angular/angular.js"></script>
+    <script src="./resource/js/lib/angular/angular-animate.min.js"></script>
+    <script src="./resource/js/lib/angular/angular-touch.min.js"></script>
+    <script src="./resource/js/lib/angular/angular-ui-router.js"></script>
+    <script src="./resource/js/lib/angular/ocLazyLoad.min.js"></script>
+    <script src="./resource/js/lib/angular/angular-resource.min.js"></script>
+    <script src="./resource/js/lib/angular/ui-bootstrap-tpls.min.js"></script>
+    <script src="./resource/js/lib/loading-bar.min.js"></script>
+
+    <script src="./app/services.js"></script>
+    <script src="./app/controllers/loginFormController.js"></script>
+
+</head>
+<body>
+     <div class="loginBox" ng-controller="loginFormCtrl">
+         <p class="logo">LOGO</p>
+         <form class="loginForm" name="loginForm" method="" action="">
+             <p class="inputBox">
+                 <input type="text" class="txtbox" id="username" name="username" ng-model="username" placeholder="用户名"/>
+             </p>
+             <p class="tip">
+                 <span ng-show="usernamenull">用户名不能为空</span>
+             </p>
+             <p class="inputBox">
+                 <input type="password" class="txtbox" id="pwd" name="pwd" ng-model="pwd" placeholder="密码"/>
+             </p>
+             <p class="tip">
+                 <span ng-show="pwdnull">密码不能为空</span>
+             </p>
+             <p class="inputBox">
+                 <input type="text" class="validateTxt" placeholder="验证码" ng-model="testcode"/>
+                 <span class="code">
+                     <img src="web/captcha" class="kaptchaImage" title="点击更换">
+                 </span>
+             </p>
+             <p class="tip">
+                 <span ng-show="codenull">验证码不能为空</span>
+             </p>
+
+             <p class="lastp">
+                 <input type="checkbox" class="checkbox" ng-model="rememberMe" ng-click="remember">记住我
+                 <input type="button" value="登 录" class="loginBtn" ng-click="login()"/>
+             </p>
+         </form>
+     </div>
+</body>
+</html>

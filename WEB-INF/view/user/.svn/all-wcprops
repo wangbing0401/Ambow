@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/user
+END
+info.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/user/info.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/user/list.jsp
+END
+password.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/user/password.jsp
+END
+form.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mtolive/!svn/ver/188/trunk/mtoliv/app/src/main/webapp/WEB-INF/view/user/form.jsp
+END

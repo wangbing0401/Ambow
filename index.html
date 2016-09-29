@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mount Olive</title>
+	<link rel="stylesheet" href="./resource/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./resource/css/loading-bar.min.css">
+	<link rel="stylesheet" href="./resource/css/ui-grid.min.css">
+	<link rel="stylesheet" href="./resource/css/index.css">
+	<script src="./resource/js/lib/jquery/jquery.min.js"></script>
+	<script src="./resource/js/lib/angular/angular.js"></script>
+	<script src="./resource/js/lib/angular/angular-animate.min.js"></script>
+	<script src="./resource/js/lib/angular/angular-touch.min.js"></script>
+	<script src="./resource/js/lib/angular/angular-ui-router.js"></script>
+	<script src="./resource/js/lib/angular/ocLazyLoad.min.js"></script>
+	<script src="./resource/js/lib/angular/angular-resource.min.js"></script>
+	<script src="./resource/js/lib/angular/ui-bootstrap-tpls.min.js"></script>
+	<script src="./resource/js/lib/loading-bar.min.js"></script>
+	<script src="./resource/js/lib/angular/ui-grid.min.js"></script>
+
+	<script src="./app/routes.js"></script>
+	<script src="./app/filters.js"></script>
+	<script src="./app/services.js"></script>
+	<script src="./app/directives.js"></script>
+	<script src="./app/app.js"></script>
+</head>
+
+<body ng-controller="indexController">
+<div class="ambow_nav">
+	<div class="line1">
+
+	</div>
+	<div class="line2">
+		<span class="nav_button organization_class" ui-sref="organization" ng-click="organization_click($event)">组织架构</span>
+		<span>
+			<span class="nav_button person_info_class" ng-click="person_info_click()">人员信息<i></i></span>
+			<ul ng-show="person_info_list_show" class="person_info_list">
+				<li ui-sref="main" ng-click="person_li_click()">基本信息</li>
+				<li ng-click="person_li_click()">岗位信息</li>
+				<li ng-click="person_li_click()">员工工资项</li>
+				<li ng-click="person_li_click()">保险基数</li>
+			</ul>
+		</span>
+	</div>
+</div>
+<div style="top: 100px;" ui-view></div>
+
+</body>
+
+</html>

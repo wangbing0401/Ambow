@@ -1,0 +1,10 @@
+<div ng-controller="organizationController as vm">
+    <div class="left">
+        <div class="left_top">
+            人力资源管理系统
+        </div>
+        <ambow-tree source=vm.countCtrl></ambow-tree>
+        <get-source get-name="get_source()"></get-source>
+    </div>
+    <div style="margin-left: 250px;" ui-view="right"></div>
+</div>

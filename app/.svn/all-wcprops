@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mtolive/!svn/ver/210/trunk/mtoliv/app/src/main/webapp/app
+END
+filters.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/mtolive/!svn/ver/201/trunk/mtoliv/app/src/main/webapp/app/filters.js
+END
+app.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mtolive/!svn/ver/209/trunk/mtoliv/app/src/main/webapp/app/app.js
+END
+directives.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/mtolive/!svn/ver/201/trunk/mtoliv/app/src/main/webapp/app/directives.js
+END
+routes.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/mtolive/!svn/ver/201/trunk/mtoliv/app/src/main/webapp/app/routes.js
+END
+services.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mtolive/!svn/ver/201/trunk/mtoliv/app/src/main/webapp/app/services.js
+END

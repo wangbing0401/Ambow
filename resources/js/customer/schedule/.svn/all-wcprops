@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/customer/schedule
+END
+runningList.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/customer/schedule/runningList.js
+END
+triggerList.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/customer/schedule/triggerList.js
+END
+planningList.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/customer/schedule/planningList.js
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/jstree
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/jstree/.gitignore
+END
+jstree.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/jstree/jstree.min.js
+END
+jstree.checkbox.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mtolive/!svn/ver/189/trunk/mtoliv/app/src/main/webapp/resources/js/jstree/jstree.checkbox.js
+END
