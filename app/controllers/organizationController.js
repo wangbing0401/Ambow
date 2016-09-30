@@ -82,4 +82,5 @@ app.controller('organizationController',['$scope', '$ocLazyLoad', function($scop
     $scope.export = function(){
         console.log($scope.myData);
     }
+    $scope.route_url = "right";
 }]);

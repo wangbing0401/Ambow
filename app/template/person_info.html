@@ -1,0 +1,10 @@
+<div ng-controller="personInfoController as vm">
+    <div style="left: -260px;" ng-class="donghua?'left person_info_tree_out':'left person_info_tree_enter'">
+        <div class="left_top">
+            人力资源管理系统
+        </div>
+        <ambow-tree source=vm.countCtrl></ambow-tree>
+        <get-source get-name="get_source()"></get-source>
+    </div>
+    <div class="person_info_right" ui-view="right"></div>
+</div>

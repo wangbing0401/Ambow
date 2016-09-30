@@ -1,0 +1,85 @@
+/*从左到右动画*/
+@keyframes animate_left_right {
+    from{
+        left: -260px;
+    }
+    to{
+        left: 0;
+    }
+}
+@-moz-keyframes animate_left_right {
+    from{
+        left: -260px;
+    }
+    to{
+        left: 0;
+    }
+}
+@-webkit-keyframes animate_left_right {
+    from{
+        left: -260px;
+    }
+    to{
+        left: 0;
+    }
+}
+@-o-keyframes animate_left_right {
+    from{
+        left: -260px;
+    }
+    to{
+        left: 0;
+    }
+}
+@keyframes animate_right_left {
+    from{
+        left: 0;
+    }
+    to{
+        left: -260px;
+    }
+}
+@-moz-keyframes animate_right_left {
+    from{
+        left: 0;
+    }
+    to{
+        left: -260px;
+    }
+}
+@-webkit-keyframes animate_right_left {
+    from{
+        left: 0;
+    }
+    to{
+        left: -260px;
+    }
+}
+@-o-keyframes animate_right_left {
+    from{
+        left: 0;
+    }
+    to{
+        left: -260px;
+    }
+}
+.person_info_tree_out{
+    animation: animate_left_right .5s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.person_info_tree_enter{
+    animation: animate_right_left .5s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.person_info_right{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-left: 250px;
+}

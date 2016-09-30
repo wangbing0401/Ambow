@@ -36,7 +36,7 @@
 		<span>
 			<span class="nav_button person_info_class" ng-click="person_info_click()">人员信息<i></i></span>
 			<ul ng-show="person_info_list_show" class="person_info_list">
-				<li ui-sref="main" ng-click="person_li_click()">基本信息</li>
+				<li ui-sref="person_info" ng-click="person_li_click()">基本信息</li>
 				<li ng-click="person_li_click()">岗位信息</li>
 				<li ng-click="person_li_click()">员工工资项</li>
 				<li ng-click="person_li_click()">保险基数</li>
@@ -44,7 +44,7 @@
 		</span>
 	</div>
 </div>
-<div style="top: 100px;" ui-view></div>
+<div ui-view></div>
 
 </body>
 

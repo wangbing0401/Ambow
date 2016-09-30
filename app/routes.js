@@ -20,14 +20,21 @@ routes.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, 
                 return $ocLazyLoad.load('./app/controllers/organizationController.js');
             }]
         }
-    }).state('main', {
-        url:'/main',
-        templateUrl:'./app/template/main.html',
-        controller:'mainController',
-        controllerAs:'main',
+    }).state('person_info', {
+        url:'/person_info',
+        views:{
+            '':{
+                templateUrl:'./app/template/person_info.html'
+            },
+            'right@person_info':{
+                templateUrl:'./app/template/person_info_right.html'
+            }
+        },
+        controller:'personInfoController',
+        controllerAs:'personInfo',
         resolve:{
             deps:['$ocLazyLoad', function($ocLazyLoad){
-                return $ocLazyLoad.load('./app/controllers/mainController.js');
+                return $ocLazyLoad.load('./app/controllers/personInfoController.js');
             }]
         }
     }).state('main.tab', {
